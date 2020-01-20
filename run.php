@@ -13,8 +13,8 @@ Join GitHub today
 GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.
 
 caping/run.php
-@anggaid14 anggaid14 Create run.php
-ecd9f38 on Sep 14, 2018
+@dancok_crew Create run.php
+ecd9f38 on Jan 20, 2020
 97 lines (94 sloc)  3.78 KB
   
 <?php
@@ -49,7 +49,7 @@ while($i<$jumlah){
 function news($uid,$n){ 
 		$rand = rand(1,9999);
 		$ch = curl_init();
-			curl_setopt($ch, CURLOPT_URL, "https://ai.caping.co.id/v2/event/news/view/$rand"); 
+			curl_setopt($ch, CURLOPT_URL, "https://ai2.caping.co.id/v2/event/news/view/$rand"); 
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 				$headers = array();
@@ -62,7 +62,7 @@ function news($uid,$n){
 function video($uid,$n){
 		$rand = rand(1,9999);
 		$ch = curl_init();
-			curl_setopt($ch, CURLOPT_URL, "https://ai.caping.co.id/v2/event/video/view/$rand"); 
+			curl_setopt($ch, CURLOPT_URL, "https://ai2.caping.co.id/v2/event/video/view/$rand"); 
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 				$headers = array();
@@ -76,7 +76,7 @@ function video($uid,$n){
 function share($uid,$n){
 		$rand = rand(1,9999);
 		$ch = curl_init();
-			curl_setopt($ch, CURLOPT_URL, "https://ai.caping.co.id/v2/event/share/news/$rand"); 
+			curl_setopt($ch, CURLOPT_URL, "https://ai2.caping.co.id/v2/event/share/news/$rand"); 
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 				$headers = array();
@@ -89,7 +89,7 @@ function share($uid,$n){
 }
 function code($uid,$n){
 		$ch = curl_init();
-			curl_setopt($ch, CURLOPT_URL, "https://ai.caping.co.id/v2/event/share/code"); 
+			curl_setopt($ch, CURLOPT_URL, "https://ai2.caping.co.id/v2/event/share/code"); 
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 				$headers = array();
@@ -102,7 +102,7 @@ function code($uid,$n){
 }
 function klik($uid,$n){
 		$ch = curl_init();
-			curl_setopt($ch, CURLOPT_URL, "https://ai.caping.co.id/v2/event/share/click/push"); 
+			curl_setopt($ch, CURLOPT_URL, "https://ai2.caping.co.id/v2/event/share/click/push"); 
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 			$headers = array();
