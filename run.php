@@ -166,23 +166,7 @@ function klik($uid,$n){
 	return $result;
 }
 
-function httpGetWithErros("https://ai2.caping.co.id")
-{
-    $ch = curl_init();  
- 
-    curl_setopt($ch,CURLOPT_URL,"https://ai2.caping.co.id");
-    curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
- 
-    $output=curl_exec($ch);
- 
-    if($output === false)
-    {
-        echo "Error Number:".curl_errno($ch)."<br>";
-        echo "Error String:".curl_error($ch);
-    }
-    curl_close($ch);
-    return $output;
-}
+
 //result
 $ch = curl_init();
 			curl_setopt($ch, CURLOPT_URL, "https://ai2.caping.co.id/v2/user/ccsp/detail"); 
