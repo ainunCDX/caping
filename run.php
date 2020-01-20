@@ -10,19 +10,9 @@ Explore
 Learn Git and GitHub without any code!
 Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
 
-
-pemiu01
-/
-Caping
-1
-01
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights
-Caping/bot
-@pemiu01 pemiu01 Create bot
-bf21673 on Dec 27, 2018
-165 lines (157 sloc)  6.31 KB
-  
 <?php
+$uid    ='69780106';
+$n      ='ffffffffda4e7c25ffffffff8273639a';
 //warna
 $merah="\033[1;34m";
 $biru="\033[1;36m";
