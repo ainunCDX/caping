@@ -11,8 +11,7 @@ Learn Git and GitHub without any code!
 Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
 
 <?php
-$uid    ='69780106';
-$n      ='ffffffffda4e7c25ffffffff8273639a';
+
 //warna
 $merah="\033[1;34m";
 $biru="\033[1;36m";
