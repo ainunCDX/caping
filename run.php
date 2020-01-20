@@ -38,11 +38,11 @@ while($i<$jumlah){
 		$share		=	share($uid,$n);
 		$code		=	code($uid,$n);
 		$klik		=	klik($uid,$n);
-	echo "TASK NEWS  $news\n";
-	echo "TASK VIDEO $video\n";
-	echo "TASK SHARE $share\n";
-	echo "TASK CODE  $code\n";
-	echo "TASK KLIK  $klik\n";
+	echo "TASK NEWS  $news\$uid,$n";
+	echo "TASK VIDEO $video\$uid,$n";
+	echo "TASK SHARE $share\$uid,$n";
+	echo "TASK CODE  $code\$uid,$n";
+	echo "TASK KLIK  $klik\$uid,$n";
 	
 	}
 
